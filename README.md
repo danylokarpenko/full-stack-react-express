@@ -1,13 +1,15 @@
-# Upgrade shared folder after update, from the root:
-
-`yarn upgrade shared`
-
 # backend:
 
-yarn install
-yarn start
+-   yarn install
+-   yarn start
 
 # frontend:
 
-yarn install
-yarn start
+-   yarn install
+-   yarn start
+
+# root:
+
+Upgrade shared folder after update
+
+-   yarn upgrade shared
