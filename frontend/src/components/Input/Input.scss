@@ -1,0 +1,12 @@
+.input-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	label {
+		margin-bottom: 3px;
+	}
+	input {
+		margin-bottom: 3px;
+	}
+}

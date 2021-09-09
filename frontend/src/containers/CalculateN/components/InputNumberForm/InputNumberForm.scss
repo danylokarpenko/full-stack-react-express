@@ -1,0 +1,12 @@
+.input-number-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	.form-actions {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 10px;
+	}
+}
