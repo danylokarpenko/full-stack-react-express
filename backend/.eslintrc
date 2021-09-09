@@ -1,0 +1,23 @@
+{
+	"env": {
+		"es6": true,
+		"node": true,
+		"jest": true
+	},
+	"extends": ["eslint:recommended"],
+	"rules": {
+		"eqeqeq": 2,
+		"no-console": [2, { "allow": ["warn", "error"] }],
+		"no-case-declarations": 0,
+		"no-unused-expressions": 2,
+		"indent": [2, "tab", { "SwitchCase": 1 }],
+		"quotes": [2, "single", "avoid-escape"],
+		"semi": 2,
+		"curly": 2,
+		"brace-style": 2
+		// "max-len": [2, { "code": 120, "tabWidth": 4, "ignoreComments": true, "ignoreUrls": true }]
+	},
+	"parserOptions": {
+		"ecmaVersion": 2018
+	}
+}
